@@ -1,0 +1,122 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+#titletop{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+}
+#titlebottom {
+    background-color: pink;
+    color: black;
+    text-align: center;
+    margin-top: 0px;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+h1 {
+    color: black;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background: white;
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.author {
+    font-style: italic;
+}
+
+
+.points {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    float: right;
+    background-color: pink;
+    border: 9px solid black;
+}
+
+@media (min-width: 768px) {
+    .points {
+        display: flex;
+        flex-direction: column;
+        float: left;
+        width: 200px;
+        background-color: white;
+        border: 3px solid black;
+    }
+    .points p{
+
+    }
+
+    #titletop {
+
+    }
+    #titlebottom {
+        color: black;
+        font-family: "Bauhaus 93";
+    }
+
+    #bodySupremo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    nav li{
+        float: left;
+        padding: 30px;
+
+    }
+
+    ul{
+        border: 4px solid black;
+        flex-direction: column;
+        font-size: 20px;
+        width: 200px;
+
+    }
+    img{
+        width: 300px;
+        height: 300px;
+    }
+
+    #seccion1{
+    display: flex;
+        border: 2px solid black;
+    }
+
+    #seccion2{
+        display: flex;
+        border: 2px solid black;
+    }
+
+    #titleSection2{
+        text-align: center;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+}
